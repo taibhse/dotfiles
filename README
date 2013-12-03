@@ -1,0 +1,48 @@
+System configuration locations
+~/.bashrc
+~/.xmodmap
+~/.config/lxsession/LXDE/autostart
+~/.config/openbox/lxde-rc.xml
+
+#Key Mappings
+xmodmap -pke #to view key mappings
+xev | grep key # to view keynumbers
+~.xmodmap #create and add the following to add escape to the Caps_Lock key
+remove Lock = Caps_Lock
+keysym Caps_Lock = Escape
+add lock = Caps_Lock
+
+#Enable CTRL-ALT-L Locking
+~/.config/openbox/lxde-rc.xml
+#between <keyboard> and </keyboard>
+<keybind key="C-A-L">      
+  <action name="Execute">        
+   <command>xscreensaver-command -lock</command>      
+  </action>    
+</keybind>
+
+#Autostart utils
+~/.config/lxsession/LXDE/autostart
+#contains
+@konsole
+@firefox
+@xflux -l 53.3 -g 6.3
+@synergy
+
+#xflux setup
+download tgz file from main site
+unpack to ~/bin
+
+#video
+#install xbmc
+
+#konsole
+Install rmp fusion and install with Yum
+
+#synergy
+installed with yum normally
+
+
+
+
+
