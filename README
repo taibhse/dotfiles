@@ -1,10 +1,15 @@
+Hi, Using this repo to store some dot files and basic system setup.
+I doubt it will be useful to anyone but feel free to take a look.
+
+This is for my Fedora Laptop (version 20)
+
 System configuration locations
 ~/.bashrc
 ~/.xmodmap
 ~/.config/lxsession/LXDE/autostart
 ~/.config/openbox/lxde-rc.xml
 
-#Key Mappings
+#Key Mappings (Swapping ESC and Caps Lock)
 xmodmap -pke #to view key mappings
 xev | grep key # to view keynumbers
 ~.xmodmap #create and add the following to add escape to the Caps_Lock key
@@ -12,7 +17,7 @@ remove Lock = Caps_Lock
 keysym Caps_Lock = Escape
 add lock = Caps_Lock
 
-#Enable CTRL-ALT-L Locking
+#Enable CTRL-ALT-L Locking  (Just adding a key lock command I am used to)
 ~/.config/openbox/lxde-rc.xml
 #between <keyboard> and </keyboard>
 <keybind key="C-A-L">      
@@ -26,21 +31,9 @@ add lock = Caps_Lock
 #contains
 @konsole
 @firefox
-@xflux -l 53.3 -g 6.3
-@synergy
+@xflux -l 53.3 -g 6.3 #this is a nice program to adjust screen birghtness, easy on the eyes
+@synergy #Nice program for sharing one keyboard+mouse with multiple computers
 
-#xflux setup
-download tgz file from main site
-unpack to ~/bin
-
-#video
-#install xbmc
-
-#konsole
-Install rmp fusion and install with Yum
-
-#synergy
-installed with yum normally
 
 
 
