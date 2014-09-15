@@ -11,4 +11,3 @@ map ^[[5~ :bprevious<CR>
 syntax on
 set ttymouse=xterm2
 set mouse=
-au FileType mail set spell spelllang=en_gb tw=79
