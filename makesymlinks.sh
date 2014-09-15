@@ -8,8 +8,7 @@
 
 dir=~/dotfiles                    # dotfiles directory
 olddir=~/dotfiles_old             # old dotfiles backup directory
-#files="bashrc vimrc vim zshrc oh-my-zsh private scrotwm.conf Xresources"    # list of files/folders to symlink in homedir
-files="bashrc config vim vimrc Xmodmap"    # list of files/folders to symlink in homedir
+files="bashrc vimrc"    # list of files/folders to symlink in homedir
 
 ##########
 
