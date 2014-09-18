@@ -9,8 +9,6 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-alias rb='ssh chris@redbrick.dcu.ie'
-alias ovh='ssh root@5.196.0.106'
 
 function parse_git_branch () {
       git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
