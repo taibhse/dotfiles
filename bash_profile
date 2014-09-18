@@ -1,7 +1,7 @@
 source ~/.profile
 
 #pull the dotfiles repo to keep everything uptodate
-cd dotfiles
+cd ~/dotfiles
 git pull
 
 # Aliases
