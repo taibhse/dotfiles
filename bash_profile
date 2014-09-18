@@ -1,7 +1,8 @@
 source ~/.profile
 
 #pull the dotfiles repo to keep everything uptodate
-git pull ~/dotfiles
+cd dotfiles
+git pull
 
 # Aliases
 alias ll="ls -l"
