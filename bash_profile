@@ -16,6 +16,7 @@ alias notes="cd ~/Documents/notes"
 alias newkey="ruby -e 'require \"securerandom\" ; puts SecureRandom.hex(40/2)'"
 alias fuck='sudo $(history -p \!\!)'
 alias reload="source ~/.bash_profile"
+alias rb="ssh chris@redbrick.dcu.ie"
 
 # Git stuff
 function parse_git_dirty {
