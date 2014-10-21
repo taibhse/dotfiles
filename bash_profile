@@ -31,7 +31,7 @@ function parse_git_branch () {
 
 # Colours
 export CLICOLOR=1
-export PS1='\[\033[0;35m\]\w\[\033[0;36m\]$(parse_git_branch)\[\e[0m\]: '
+export PS1='\h:\[\033[0;35m\]\w\[\033[0;36m\]$(parse_git_branch)\[\e[0m\]: '
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
