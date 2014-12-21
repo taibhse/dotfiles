@@ -1,4 +1,6 @@
-source ~/.profile
+#!/bin/bash
+#source ~/.profile
+source ~/dotfiles/bashrc
 
 echo "bash_profile"
 
