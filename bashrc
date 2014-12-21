@@ -1,12 +1,9 @@
 # .bashrc
-
+echo bashrc
 # Source global definitions
 if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
-
-# Uncomment the following line if you don't like systemctl's auto-paging feature:
-# export SYSTEMD_PAGER=
 
 #line to update the git repo
 cd ~/dotfiles
@@ -31,3 +28,6 @@ function parse_git_branch () {
   
   PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
