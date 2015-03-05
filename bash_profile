@@ -4,8 +4,8 @@
 echo "bash_profile"
 
 #pull the dotfiles repo to keep everything uptodate
-cd ~/dotfiles
-git pull
+#cd ~/dotfiles
+#git pull
 
 # Aliases
 alias ll="ls -l"
