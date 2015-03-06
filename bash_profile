@@ -3,7 +3,7 @@
 
 echo "bash_profile"
 
-#pull the dotfiles repo to keep everything uptodate
+#pull the dotfiles repo to keep everything upto date
 #cd ~/dotfiles
 #git pull
 
@@ -22,6 +22,9 @@ alias reload="source ~/.bash_profile"
 alias rb="ssh chris@redbrick.dcu.ie"
 alias rs='tmux attach'
 alias ovh="ssh chris@taibhse.eu"
+
+# Update local files
+#put a function here to save current location, git pull and move back
 
 # Git stuff
 function parse_git_dirty {
