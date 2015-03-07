@@ -24,7 +24,6 @@ alias rs='tmux attach'
 alias ovh="ssh chris@taibhse.eu"
 
 # Update local files
-#put a function here to save current location, git pull and move back
 function update(){
     git -C ~/dotfiles pull    
 }
