@@ -7,6 +7,9 @@ echo "bash_profile"
 #cd ~/dotfiles
 #git pull
 
+#Sets vi mode in my terminal
+set -o vi
+
 # Aliases
 alias ll="ls -l"
 alias applications="cd /Applications"
