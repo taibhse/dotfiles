@@ -1,7 +1,7 @@
 #!/bin/bash
 #source ~/.profile
 
-echo "bash_profile"
+#echo "bash_profile"
 
 #pull the dotfiles repo to keep everything upto date
 #cd ~/dotfiles

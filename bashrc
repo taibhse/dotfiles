@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "bashrc"
+#echo "bashrc"
 source ~/dotfiles/bash_profile
