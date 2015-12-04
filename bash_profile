@@ -12,7 +12,8 @@ set -o vi
 
 # Aliases
 alias ll="ls -l"
-alias applications="cd /Applications"
+alias app="cd ~/Applications"
+alias doc="cd ~/Documents"
 alias down="cd ~/Downloads"
 alias desktop="cd ~/Desktop"
 alias finder="open -a Finder ."
