@@ -27,6 +27,7 @@ alias reload="source ~/.bash_profile"
 alias rb="ssh chris@redbrick.dcu.ie"
 alias rs='tmux attach'
 alias ovh="ssh chris@taibhse.eu"
+alias unfuck-git='git clean -xdf; git reset --hard HEAD; git fetch origin; git reset --hard origin'
 
 # Update local files
 function update(){
