@@ -8,7 +8,7 @@
 set -o vi
 
 # Aliases
-alias ll="ls -l"
+alias ll="ls -l --color=auto"
 alias applications="cd /Applications"
 alias down="cd ~/Downloads"
 alias desktop="cd ~/Desktop"
