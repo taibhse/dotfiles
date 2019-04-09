@@ -1,9 +1,5 @@
 #!/bin/bash
 
-#pull the dotfiles repo to keep everything upto date
-#cd ~/dotfiles
-#git pull
-
 #Sets vi mode in my terminal
 set -o vi
 
@@ -47,10 +43,9 @@ PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 
-cd ~
-
-
-
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/Devel
 source /usr/local/bin/virtualenvwrapper.sh
+source .env
+
+
