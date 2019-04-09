@@ -8,4 +8,4 @@ set vb t_vb="."
 set background=dark
 syntax on
 set ttymouse=xterm2
-set mouse=n
+set mouse=
