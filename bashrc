@@ -7,6 +7,7 @@ set -o vi
 alias ll="ls -lG"
 alias applications="cd /Applications"
 alias down="cd ~/Downloads"
+alias cleand="rm -rf ~/Downloads/*"
 alias desktop="cd ~/Desktop"
 alias finder="open -a Finder ."
 alias countfiles="ls -AF | grep -vc [/,@]"
