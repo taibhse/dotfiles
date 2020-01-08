@@ -4,7 +4,7 @@
 set -o vi
 
 # Aliases
-alias ll="ls -l --color=auto"
+alias ll="ls -lG"
 alias applications="cd /Applications"
 alias down="cd ~/Downloads"
 alias desktop="cd ~/Desktop"
@@ -41,11 +41,7 @@ NO_COLOR="\[\033[0m\]"
 
 PS1="$GREEN\u@\h$NO_COLOR:\w$YELLOW\$(parse_git_branch)$NO_COLOR\$ "
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-export WORKON_HOME=$HOME/.virtualenvs
-export PROJECT_HOME=$HOME/Devel
-source /usr/local/bin/virtualenvwrapper.sh
-source .env
-
-
+#Work config
+if [ -f ~/.work ]; then
+   source ~/.work
+fi
