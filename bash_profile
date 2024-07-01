@@ -1,5 +1,11 @@
 #bash_profile is for login shells
 
+#Aliases
+alias down="cd ~/Downloads"
+alias cleand="rm -rf ~/Downloads/*"
+alias wet='curl "https://wttr.in/dublin?metric"'
+
+
 # Adding bash prompt colour
 export PS1="\[\e[31m\]\u\[\e[m\]@\[\e[34m\]\h \[\e[m\]\[\e[33m\]\w\[\e[m\] \[\e[31m\]\\$\[\e[m\] "
 
