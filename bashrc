@@ -16,9 +16,8 @@ alias notes="cd ~/Documents/notes"
 alias newkey="ruby -e 'require \"securerandom\" ; puts SecureRandom.hex(40/2)'"
 alias fuck='sudo $(history -p \!\!)'
 alias reload="source ~/.bash_profile"
-alias rb="ssh chris@redbrick.dcu.ie"
 alias rs='tmux attach'
-alias ovh="ssh chris@taibhse.eu"
+alias wet='curl "https://wttr.in/dublin?metric"'
 
 # Update local files
 function update(){
